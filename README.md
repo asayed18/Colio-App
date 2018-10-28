@@ -12,8 +12,9 @@
 single web page application Front End build withh react to be encluded to the back End for building and endycation platform for students to keep them updated with Assignments, quizes and announcements.
 
 ### Prerequisite:
- this Ptoject is built on [React-Boilerplate](https://github.com/react-boilerplate) to       increase performance and scalabilty for next updates
- other pachages used :
+ this Ptoject is built on [React-Boilerplate](https://github.com/react-boilerplate) to       increase performance and scalabilty for next updates.
+ 
+ other packages used :
     [react sidebar](https://www.npmjs.com/package/react-sidebar)
     [reactstrap](https://reactstrap.github.io/)
     [google-fonts](https://fonts.google.com/)
