@@ -12,7 +12,7 @@
 single web page application Front End build withh react to be encluded to the back End for building and endycation platform for students to keep them updated with Assignments, quizes and announcements.
 
 ### Prerequisite:
- this Ptoject is built on [React-Boilerplate](https://github.com/react-boilerplate) to       increase performance and scalabilty for next updates.
+ this Ptoject is built on [React-Boilerplate](https://github.com/react-boilerplate) to increase performance and scalabilty for next updates.
  
  other packages used :
     [react sidebar](https://www.npmjs.com/package/react-sidebar)
@@ -30,13 +30,13 @@ single web page application Front End build withh react to be encluded to the ba
 6. the {Announcement, Quizes} components template is fetching data from 2 services which act as child components 
     * a real service that call the endpoint http://test.coligolms.com/api/(Entity) to fetch data with defining the Entity for each component {announcement, quiz} 
     * a fake service that fetch the data seprately from a local file FakeData.js and map it to the component
-7. the axios package service is used as an http request package and call it through a separated logic file Api.js that conatin the main http functions {getOne(id), getAll(), create(), update(id), patch(id), delete(id) }. the API Url is defined first then defined next the endpoint to be parsed
+7. the axios package service is used as an http request package and call it through a separated logic file Api.js that conatin the main http functions {getOne(id), getAll(), create(), update(id), patch(id), delete(id) }. the API Url is defined first then next the endpoint to be parsed is defined through function createEntity
 8. the expand function (All button) in the {Announcement, Quizes} components is handled as a state in the componet that is passed to the child component (the real service) through a props that will be updated in the func. componentWillReceiveProps then fetch first few objects or all the objects from the endpoint.
-9. json server is used for development as a test to the real service 
+9. json server package is used for development as a test to the real service 
 10. most of the developed code in the App directory and the other directories and files are related to the boilerplate.
 
 ### Next Updates:
-1. updating soeme component with redux and redux-saga
+1. updating some component with redux and redux-saga
 2. Updating NavBar to get data from User profile when connecting to the BE.
 3. building other components for the routes in the SideBar {GradeBook, Performance, Courses, etc . . }
 
