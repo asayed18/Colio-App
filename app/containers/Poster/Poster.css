@@ -1,0 +1,60 @@
+.posterContainer{
+  margin:0px 0px 20px 0px;
+  width: 100%;
+
+}
+.content{
+  padding-left: 30px;
+  border-radius: 10px;
+  color: black;
+  horiz-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.posterHeader{
+  margin: 20px 20px 5px 0px;
+}
+.posterHeaderGrad{
+  font-family: Helvetica, 'Helvetica Neue';
+  font-weight: 700;
+  font-size: 4rem;
+  background-image: linear-gradient(to right, #367 , #7cd8cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.posterDiscribtion{
+  font-family: Abel;
+  font-weight:700;
+  font-size: 1.6rem;
+  color:#245;
+}
+.byword{
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.posterImage{
+  position: absolute;
+  right: 0;
+
+}
+
+
+.button{
+  background-image: linear-gradient(to right, #489 , #5cb);
+  border-color: #5cb;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+.button:hover, .button:focus, .button:active, .button.active, .open > .dropdown-toggle.button {
+  border-color: #285e8e;
+  border: 2px solid;
+  background-color: #489;
+}

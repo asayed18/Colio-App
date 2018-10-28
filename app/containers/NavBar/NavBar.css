@@ -1,0 +1,141 @@
+.navbar{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px ;
+
+}
+.brand{
+  font-family: Calibri;
+  font-size: 3rem;
+  font-weight: 600px;
+  margin-bottom: 15px;
+  color:gray !important;
+  margin-left:30px;
+}
+
+
+.Notification{
+  color:#489 ;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding-top: 9px;
+  position: relative;
+}
+
+.rounded{
+  float: left;
+  font-size: 1.5rem;
+  margin-right:30px;
+  padding:6px 15px 6px 30px;
+  border-radius:25px;
+  border: 2px solid #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  color: gray;
+  width:200px;
+}
+
+.caret{
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.caret:hover .caret:active{
+  background-color: transparent!important;
+  border-color: transparent!important;
+}
+
+.ProfilePicture{
+  float: left;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  border-radius: 50%;
+  background-image: url('https://randomuser.me/api/portraits/men/62.jpg')!important;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  z-index: 2;
+  display: inline;
+}
+
+
+.ProfileItems{
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  float: left;
+}
+
+@media screen and (max-width: 800px) {
+  .brand {
+    font-size: 1.3rem;
+    margin-left: 5px;
+  }
+
+  .rounded{
+    float: left;
+    font-size: 0.8rem;
+    padding:2px 5px 5px 10px;
+    border: 1px solid #ccc;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    color: gray;
+    width:70px;
+  }
+
+  .ProfilePicture{
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-image: url('http://placehold.it/400x200');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: auto;
+
+  }
+  .Notification{
+    color:#489 ;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: auto;
+    width: 32px;
+    height: 32px;
+    padding-top: 0px;
+    float: left;
+  }
+  .navbar{
+    height: 60px;
+  }
+  .caret{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+  }
+}
+

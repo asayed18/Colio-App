@@ -1,0 +1,76 @@
+.container{
+  margin:0px 0px 20px 0px;
+  width: 100%;
+
+}
+.content{
+  padding-left: 15px;
+  border-radius: 10px;
+  color: black;
+  horiz-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header{
+  margin-top:10px ;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color:#367;
+  font-weight: bold;
+}
+.byword{
+  font-size: 1rem;
+  color: gray;
+}
+.expand{
+  color: #54bdb6;
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+
+
+.quizContainer{
+  margin: 10px;
+  margin-bottom: 30px;
+
+}
+
+.quizContent{
+  font-size: 2rem;
+  font-family: 'Teko', sans-serif;
+  color: #367;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.userSubject{
+  color: gray;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button{
+  color:#5cb;
+  width: 100%;
+  border-color: #5cb;
+  border: 2px solid;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.icon{
+  color: #5cb;
+  display: inline-block;
+}
+.button:hover, .button:focus, .button:active, .button.active, .open > .dropdown-toggle.button {
+  border-color: #285e8e;
+  border: 2px solid;
+  background: #5cb;
+}
+
