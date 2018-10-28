@@ -28,7 +28,7 @@ single web page application Front End build withh react to be encluded to the ba
 4. the Main content will be routed for Now to either "/dashboard" or "/announcement"
 5. the dashoard component contains 3 children components {Poster, Announcements, Quizes} and the layout is configured using reactstrap without editing these componetns.
 6. the {Announcement, Quizes} components template is fetching data from 2 services which act as child components 
-    * a real service that call the endpoint http://test.coligolms.com/api/<Entity> to fetch data with defining the Entity for each component {announcement, quiz} 
+    * a real service that call the endpoint http://test.coligolms.com/api/(Entity) to fetch data with defining the Entity for each component {announcement, quiz} 
     * a fake service that fetch the data seprately from a local file FakeData.js and map it to the component
 7. the axios package service is used as an http request package and call it through a separated logic file Api.js that conatin the main http functions {getOne(id), getAll(), create(), update(id), patch(id), delete(id) }. the API Url is defined first then defined next the endpoint to be parsed
 8. the expand function (All button) in the {Announcement, Quizes} components is handled as a state in the componet that is passed to the child component (the real service) through a props that will be updated in the func. componentWillReceiveProps then fetch first few objects or all the objects from the endpoint.
